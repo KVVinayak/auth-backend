@@ -8,7 +8,7 @@ const authRoutes = require("./routes/authRoutes");
 const app = express();
 
 app.use(cors({
-    origin: "http://localhost:5173"
+    origin: "https://auth-frontend-mu-woad.vercel.app"
 }));
 
 app.use(express.json());
